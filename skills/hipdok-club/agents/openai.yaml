@@ -1,0 +1,10 @@
+interface:
+  display_name: "Hipdok Club"
+  short_description: "Operate Hipdok Club with agent-safari"
+  default_prompt: "Use $hipdok-club to complete my Hipdok Club attendance or reading activity."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "agent-safari"
+      description: "Safari browser automation for Seoul Outdoor Library Hipdok Club"
