@@ -6,6 +6,24 @@ The skill supports common Hipdok Club requests such as attendance, book registra
 
 ## Install
 
+### Prompt install
+
+In Codex, ask:
+
+```text
+Use $skill-installer to install the skill from https://github.com/handlecusion/hipdok-skill/tree/main/skills/hipdok-club
+```
+
+Or in Korean:
+
+```text
+https://github.com/handlecusion/hipdok-skill/tree/main/skills/hipdok-club 에 있는 Codex skill 설치해줘.
+```
+
+Restart Codex after installation so the new skill is discovered.
+
+### Manual install
+
 Clone the repo and run the installer:
 
 ```bash
